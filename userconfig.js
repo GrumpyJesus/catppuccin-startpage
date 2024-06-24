@@ -15,21 +15,21 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "daily",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
+              name: "gmail",
+              url: "https://mail.google.com/mail/u/0/",
               icon: "droplet-bolt",
               icon_color: "#a6e3a1",
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net/sixty",
+              name: "drive",
+              url: "https://drive.google.com/drive/my-drive",
               icon: "binary-tree",
               icon_color: "#fab387",
             },
@@ -39,25 +39,25 @@ const default_config = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
+              name: "todo",
               url: "https://mail.google.com",
               icon: "brand-gmail",
               icon_color: "#a6e3a1",
             },
             {
-              name: "calendar",
+              name: "todo",
               url: "https://calendar.google.com",
               icon: "calendar-filled",
               icon_color: "#fab387",
             },
             {
-              name: "sheets",
+              name: "todo",
               url: "https://docs.google.com/spreadsheets",
               icon: "table",
               icon_color: "#f38ba8",
             },
             {
-              name: "drive",
+              name: "todo",
               url: "https://drive.google.com/drive/home",
               icon: "brand-google-drive",
               icon_color: "#89b4fa",
@@ -65,35 +65,35 @@ const default_config = {
           ],
         },
         {
-          name: "media",
+          name: "Media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
+              name: "Youtube",
+              url: "https://www.youtube.com",
               icon: "news",
               icon_color: "#a6e3a1",
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
+              name: "twitch",
+              url: "https://twitch.de",
               icon: "badge-filled",
               icon_color: "#fab387",
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
+              name: "youtube music",
+              url: "https://music.youtube.com/",
               icon: "border-radius",
               icon_color: "#f38ba8",
             },
             {
-              name: "ґрунт",
-              url: "https://grnt.media",
+              name: "Reddit",
+              url: "https://reddit.com",
               icon: "eye-bolt",
               icon_color: "#89b4fa",
             },
             {
-              name: "village",
-              url: "https://www.village.com.ua",
+              name: "Instagram",
+              url: "https://www.instagram.com",
               icon: "home-2",
               icon_color: "#cba6f7",
             },
@@ -102,7 +102,7 @@ const default_config = {
       ],
     },
     {
-      name: "dev",
+      name: "obsidian",
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
