@@ -75,7 +75,7 @@ const default_config = {
             },
             {
               name: "twitch",
-              url: "https://twitch.de",
+              url: "https://twitch.tv",
               icon: "badge-filled",
               icon_color: "#fab387",
             },
